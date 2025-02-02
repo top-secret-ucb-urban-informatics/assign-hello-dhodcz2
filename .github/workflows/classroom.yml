@@ -22,7 +22,7 @@ jobs:
       - name: Checkout secret tests repository
         uses: actions/checkout@v4
         with:
-          repository: dhodcz2/secret-tests
+          repository: top-secret-ucb-urban-informatics/secret-tests
           token: ${{ secrets.SECRET_TESTS_TOKEN }}  # PAT with access to the secret repo.
           ref: main
           path: secret
